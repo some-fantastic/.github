@@ -15,6 +15,8 @@ Not content with your standard whiteboard exercise of boring coding interviews, 
 
 :clipboard: [organization project](https://github.com/orgs/some-fantastic/projects/1) tracking all the things going on
 
+💡 These workflows assume squash merging, deleting head branches, and a patch-based workflow across sides that can't share a common repo.
+
 :white_check_mark: Good checks to run on lesser-fizzbuzz PRs
 
 - CODEOWNERS and required reviewers to make sure the right :eyes: (and multiple of them) are on the right files every time
