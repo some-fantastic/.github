@@ -10,6 +10,7 @@ Not content with your standard whiteboard exercise of boring coding interviews, 
   - [example issue](https://github.com/some-fantastic/lesser-fizzbuzz/issues/5) tracking promotion of changes from the low side
   - [workflow file](https://github.com/some-fantastic/lesser-fizzbuzz/blob/main/.github/workflows/promotion.yml) that creates a patch file on push to main (which should only happen on PR merge), then creates an issue and adds it to the [organization project](https://github.com/orgs/some-fantastic/projects/1) for tracking.
 - [greater-fizzbuzz](https://github.com/some-fantastic/greater-fizzbuzz) - not exactly a fork of :point_up:, but a copy maintained via patches sent over to the high side.
+  - [workflow file](https://github.com/some-fantastic/greater-fizzbuzz/blob/main/.github/workflows/application.yml) that fetches, scans, and applies the patch file, then opens a pull request.  This PR will kick off any additional checks needed and provides a _second_ approval process for the receiving side.
 - [fizzbuzzbang](https://github.com/some-fantastic/fizzbuzzbang) - the finished product, assembled on the high side. :tada:
 
 :clipboard: [organization project](https://github.com/orgs/some-fantastic/projects/1) tracking all the things going on
